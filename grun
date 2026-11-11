@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# Check if a file was provided
+if [ -z "$1" ]; then
+    echo "Usage: grun <file.cpp>"
+    exit 1
+fi
+
+FILE=$1
+# Strip extension for the output name
+OUT="${FILE%.*}"
+
+# Compile and run
+g++ -Wall -Wextra -O2 "$FILE" -o "$OUT" && ./"$OUT"
