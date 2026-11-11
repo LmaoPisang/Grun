@@ -10,4 +10,4 @@ Before you installing, make sure that you have C compiler installed.
 `sudo apt install g++`
 
 ### Install the script
-`curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/grun/main/install.sh | bash`
+`curl -sSL https://raw.githubusercontent.com/LmaoPisang/grun/main/install.sh | bash`
